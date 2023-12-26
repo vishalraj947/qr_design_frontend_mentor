@@ -10,29 +10,35 @@ p{
 
 .container{
     background-color: white;
-    width: 30%;
-    height: 70%;
+    width:32%;
+    max-width: 350px;
+    max-height: 500px;
+
+    height:36%;
     margin: 100px auto;
     text-align: center;
-    border-radius: 4%;
-    padding-bottom: 3%;
+    border-radius: 0.95rem;
+    padding-bottom: 3rem;
 }
 img{
-    width: 95%;
+    width: 90%;
     height: 50%;
-    margin-top: 20px;
+    margin: 1.125rem;
     padding: 0;
     border: 0;
-    border-radius: 5%;
+    border-radius: 0.95em;
 
 }
 
 .light{
     font-weight: 400;
+    font-size: 0.95rem;
+    color: #7B879D;
     
 }
 .bold{
     font-weight:700;
+    font-size: 1.3rem;
 }
 
 .content{
